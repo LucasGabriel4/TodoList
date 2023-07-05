@@ -11,6 +11,7 @@
 .todo__container{
     max-width: 37.5rem;
     margin: 50px auto;
+    padding: 0 10px;
 }
 
 
@@ -119,4 +120,23 @@
 
 .todo__edit.active{
     display: flex;
+}
+
+
+@media screen and (max-width: 680px){
+    .todo__item{
+        width: 350px;
+        height: 48px;
+    
+    }
+
+    .todo__add-item{
+        gap: 10px;
+    }
+
+
+    .todo__add-item input[type=text]{
+        width: 16rem;
+        height: 2.5rem;
+     }
 }
